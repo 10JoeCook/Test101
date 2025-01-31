@@ -1,0 +1,9 @@
+---
+name: test002
+
+index: "test002"
+
+filter:
+  - query:
+      query_string:
+        query: 'test.ip: "003.003.003.003" AND t*st003* AND test.type: "test_service" AND test.resp.sc: 300'

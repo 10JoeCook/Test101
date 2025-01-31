@@ -1,0 +1,9 @@
+---
+name: test002
+
+index: "test002"
+
+filter:
+  - query:
+      query_string:
+        query: 'test.level: "Information" AND test.req.body.cont: "<h1>Internal Server Error</h1>" AND message: "Generic Response"'

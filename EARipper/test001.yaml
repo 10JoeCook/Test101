@@ -6,4 +6,4 @@ index: "test001"
 filter:
   - query:
       query_string:
-        query: '"testphrase" AND test.level : 1 AND test.desc: testdescription'
+        query: '"testphrase" AND test.level: 1 AND test.desc: testdescription'
