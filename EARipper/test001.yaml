@@ -1,7 +1,7 @@
 ---
 name: test001
 
-index: "test001"
+index: "test-001"
 
 filter:
   - query:

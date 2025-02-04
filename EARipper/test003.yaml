@@ -1,7 +1,7 @@
 ---
-name: test002
+name: test003
 
-index: "test002"
+index: "test-003"
 
 filter:
   - term:
