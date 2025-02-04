@@ -1,4 +1,5 @@
 ---
+# OR test
 name: test005
 
 index: "test-005"
@@ -7,7 +8,3 @@ filter:
 - query:
     query_string:
       query: "test.name: abc AND upstream.http.response.status_code: [400 TO 599] OR test.function: temp"
-- term:
-    test.type: "testing"
-- term:
-    url.domain: "www.test.com"
