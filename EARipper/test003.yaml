@@ -11,4 +11,4 @@ filter:
       tags: "test_tag"
   - query:
       query_string:
-        query: 'test.ip: "003.003.003.003" AND t*st003* AND test.type: "test_service" AND test.resp.sc: 300'
+        query: 'test.ip: "003.003.003.003" AND t*st003? AND test.type: "test_service" AND test.resp.sc: 300'
