@@ -1,7 +1,7 @@
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
-  name: Test Application
+  name: Test-Application
   description: This is a test application for Backstage.
   links:
     - title: Guides
