@@ -1,0 +1,18 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: Test Application
+  description: This is a test application for Backstage.
+  links:
+    - title: Guides
+      url: https://bedegaming.atlassian.net/wiki/spaces/~615441f62f6aed006852276d/pages/3898671173/Joe+s+Guides
+    - title: Blog Post
+      url: https://bedegaming.atlassian.net/wiki/spaces/SI/blog/2025/07/28/5512527892/The+Big+Conan+IP+Set+Audit+-+Part+1
+spec:
+  type: website
+  owner: SRE Team
+  lifecycle: testing
+  tags:
+    - test
+    - backstage
+    - example
